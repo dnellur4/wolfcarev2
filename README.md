@@ -28,14 +28,14 @@
 <p align="center">
   <a href="#overview">About WolfCare</a>
   ::
-  <a href="#flowchart"> Flowchart </a> 
+  <a href="#flowchart">Flowchart </a> 
   ::
   <a href="#directory-structure">Directory Structure</a>
   ::
   <a href="#technologies">Technologies</a>
   ::
   <a href="#gettingstarted">Getting started</a> </br>
-
+  ::
   <a href="#results">Results</a>
   ::
   <a href="#conclusion">Conclusion</a>
@@ -49,51 +49,15 @@
 </p>
 
 ## Overview
+<p>WolfCare is an online application that manages the health portfolio of the patient and provides doctor’s assistance through an online portal. A virtual doctor appointment booking system overrides the problems of booking an appointment manually. It is convenient, helps in better resource management and aids in syncing of calender schedules. This project provides a platform for the users to create an account, search for doctors at a given location, view the doctor's background and book appointments. Additionally, we have included a symptoms check where users can add theor test report values and view the results of a medical condition.</p>
+<p>This project can also help doctors to manage the schedules of their appointments with their patients. This doctor's appointment system will organize the schedules of each patient's appointment, which will be submitted as a request to the doctor they have selected. The system has 3 sides which are the administrator, the doctor, and the patient. The system admin will populate the list of the doctors with their specialties and along with the doctor's details and system credentials. The patients will browse the doctor's appointment system website to find a doctor that has the specialty of their needs. The patient can check the doctor's weekly schedule to help them to choose the day and time which they can comply for the appointment and they will submit their request for an appointment. After that, the doctors can view all their appointments and the appointment request of the patients for their availability.</p>
 
 
     
-## flowchart
+## Flowchart
 
 ## Directory Structure 
 ```txt
-.github/workflows/
-   python-app.yml
-   pdoc-app.yml
-docs/
-  src
-  proj1rubricComments.pdf
-  proj1rubric.md
-src/
-  README.md
-  Application/
-      static/
-          base.jpeg
-          water.jpeg
-          main.js
-          style.css
-      templates/
-          index.html
-          login_socialmedia.html
-          predict.html
-      App.py
-      app.yaml
-      model_prediction.py
-  Training/
-      bert+svm_flood_detection.ipynb
-      training_model.py
-test/
-  README.md
-  Web Results/
-      Home.png
-      login.png
-      output_prediction.png
-  __init__.py
-  test_index.py
-  test_login.py
-  test_modelprediction.py
-  test_predict.py
-  test_return.py
-  test_runner.py
 .gitignore
 .travis.yml
 CITATION.md 
@@ -106,61 +70,41 @@ requirements.txt
 setup.py         
 ```
 ## Technologies
-
-<img src="https://upload.wikimedia.org/wikipedia/commons/c/c3/Python-logo-notext.svg" alt="python" width="20" height="20"/> Python </br>
+![](https://img.shields.io/badge/PHP-777BB4?style=for-the-badge&logo=php&logoColor=white)</br>
 <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" alt="Java script" width="20" height="20"/> Java Script </br>
- <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-plain.svg" alt="html" width="20" height="20"> CSS3 </br>
- <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-plain.svg" alt="css" width="20" height="20">  HTML 5 </br>
- <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jupyter/jupyter-original-wordmark.svg" alt="Jupyter" width="20" height="20"> Jupyter Notebook</br>
+
+
+<img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-plain.svg" alt="css" width="20" height="20">  HTML 5 </br>
+<img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-plain.svg" alt="html" width="20" height="20"> CSS3 </br>
+![](https://img.shields.io/badge/MySQL-005C84?style=for-the-badge&logo=mysql&logoColor=white)
 
 ## Gettingstarted
 
+
   - ### Prerequisite:
-      - Download [Python3.x](https://www.python.org/downloads/).
+      - Download [XAMPP](https://sourceforge.net/projects/xampp/files/XAMPP%20Mac%20OS%20X/8.0.6/) and run all the servers.
 
    - ### Installation:
-
-      **Steps to setup virtual environment**
-     - Create a virtual environment:
-
-        `python3.8 -m venv app_env`
-    
-     - Activate the virtual environment: 
-
-        `source app_env/bin/activate`
-    
-     - Build the dependencies in virtual environment:
-
-        `pip install -r requirements.txt`
-
-  - ### Instructions to Run the application.
-
-     **To run/test the site:**
-
-     - Clone [Flooddetection github repo](https://github.com/dnellur4/flood_detection_model).
-
-     - Navigate to project directory.
-  
-     - Run `python3 App.py`
-
-     - Site will be hosted at:(localhost)
-       `http://127.0.0.1:3000/`
+     - >***Note***: *All the requirements of the project are listed in the [requirements.txt](https://github.com/dnellur4/wolfcarev2/requirements.txt) file with their required versions. The [INSTALL.md](https://github.com/dnellur4/wolfcarev2/INSTALL.md) guides on how to download the required applications.*
+     -  Clone the Github repository in your local system by running **`git clone https://github.com/dnellur4/wolfcarev2.git`** in your command line or downloading the repository zip file.
+   - ### Instructions to Run the application.
+     -  Place the project repository in **`/xampp/htdocs/`** (**Note:** the xampp folder will be present in the C directory of your local system).
+     -  Run the xampp application, and start the **`Apache`, `MySQL`, and `FileZilla`** by clicking on the start button.
+     -  Browse the PHPMyAdmin in a browser. i.e. http://localhost/phpmyadmin
+     - Open the project in Visual Studio Code (VS Code) &rarr; Go to **`code/medical-rules/index.html`** and press the **`Go Live`** button present at the bottom right corner.
+     - Create a new database naming wolfcare and Import the provided SQL file. The file is known as DATABASE sql located inside the source code root folder.
+     -  Browse the Doctor's Appointment Systsem in a browser. i.e. http://localhost/edoc-echanneling-main/.
 
 ## Results
- ![alt text](https://github.com/dnellur4/flood_detection_model/blob/main/test/Web%20Results/home.png)
- ![alt text](https://github.com/dnellur4/flood_detection_model/blob/main/test/Web%20Results/login.png)
- ![alt text](https://github.com/dnellur4/flood_detection_model/blob/main/test/Web%20Results/output_prediction.png)
+ ![alt text]()
+ ![alt text]()
+ ![alt text]()
 ## Conclusion
-  - Our Current Application takes post tile and description as Input.
-  - We trained our model using BERT + SVM machinelearning model.
-  - Depending on the inputs our trained machine learning model predicts the outcome whether the flood exists or not.
+  - 
 ## Future scope
-  - Moreover, due to advancement of social media, users now can write in these social media using their native language. So, an extension to a social media app will be of good use.
-  - Our current model predicts the flood using  current text analysis, including the images along with the text could improve the accuracy of the model
-  - We have a limited training data for the model in our application. It can be improved by training the model with more data.
+  - 
 ## Video
 
-https://user-images.githubusercontent.com/112122632/194800209-9f043016-e6d9-46b4-8e7b-f90fd7e6b64a.mp4
 
 ## Group Members ##
   - [Nelluru, Dedeepya](mailto:dnellur@ncsu.edu?) (dnellur)
