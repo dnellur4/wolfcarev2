@@ -33,6 +33,7 @@ class symptomsCalculator:
         
         '''The function calculates whether the patient has Hypertension utilizing its Medical Report's Constraints'''
         if (sbp > 140) and (dbp > 90):
+            
             return True
         else: 
             return False
