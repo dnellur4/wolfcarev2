@@ -94,7 +94,12 @@
                 </tr>
                 <tr class="menu-row" >
                     <td class="menu-btn menu-icon-appoinment">
-                        <a href="appointment.php" class="non-style-link-menu"><div><p class="menu-text">My Bookings</p></a></div>
+                        <a href="appointment.php" class="non-style-link-menu"><div><p class="menu-text">Appointments</p></a></div>
+                    </td>
+                </tr>
+                <tr class="menu-row" >
+                    <td class="menu-btn menu-icon-appoinment">
+                        <a href="medical-rules/index.html" class="non-style-link-menu"><div><p class="menu-text">Check your Symptoms</p></a></div>
                     </td>
                 </tr>
                 <tr class="menu-row" >
@@ -254,7 +259,7 @@
             
            
             $dob=$row["pdob"];
-            $nic=$row['pnic'];
+            $ssn=$row['pssn'];
             $tele=$row['ptel'];
             echo '
             <div id="popup1" class="overlay">
@@ -299,12 +304,12 @@
                             </tr>
                             <!--<tr>
                                 <td class="label-td" colspan="2">
-                                    <label for="nic" class="form-label">NIC: </label>
+                                    <label for="ssn" class="form-label">ssn: </label>
                                 </td>
                             </tr>
                             <tr>
                                 <td class="label-td" colspan="2">
-                                '.$nic.'<br><br>
+                                '.$ssn.'<br><br>
                                 </td>
                             </tr>
                             <tr>-->
@@ -366,7 +371,7 @@
             
             
             $address=$row["paddress"];
-            $nic=$row['pnic'];
+            $ssn=$row['pssn'];
             $tele=$row['ptel'];
 
             $error_1=$_GET["error"];
@@ -428,12 +433,12 @@
                                     
                                     <!--<tr>
                                         <td class="label-td" colspan="2">
-                                            <label for="nic" class="form-label">NIC: </label>
+                                            <label for="ssn" class="form-label">ssn: </label>
                                         </td>
                                     </tr>
                                     <tr>
                                         <td class="label-td" colspan="2">
-                                            <input type="text" name="nic" class="input-text" placeholder="NIC Number" value="'.$nic.'" required><br>
+                                            <input type="text" name="ssn" class="input-text" placeholder="ssn Number" value="'.$ssn.'" required><br>
                                         </td>
                                     </tr>-->
                                     <tr>
