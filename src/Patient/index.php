@@ -99,6 +99,12 @@
                     </td>
                 </tr>
                 <tr class="menu-row" >
+                    <td class="menu-btn menu-icon-appoinment">
+                        <a href="medical-rules/index.html" class="non-style-link-menu"><div><p class="menu-text">Check your Symptoms</p></a></div>
+                    </td>
+                </tr>
+ 
+                <tr class="menu-row" >
                     <td class="menu-btn menu-icon-settings">
                         <a href="settings.php" class="non-style-link-menu"><div><p class="menu-text">Settings</p></a></div>
                     </td>
@@ -138,6 +144,8 @@
         
         
                         </tr>
+
+                </tr>
                 <tr>
                     <td colspan="4" >
                         
@@ -149,11 +157,13 @@
                             
                             <p>
                                 <a href="doctors.php" class="non-style-link"><b>"All Doctors"</b></a>  or 
-                                <a href="schedule.php" class="non-style-link"><b>"Sessions"</b> </a><br>
+                                <a href="schedule.php" class="non-style-link"><b>"All Sessions"</b> </a><br>
                                 <br><br>
                             </p>
-                            
-                            
+                            <p>
+
+                        
+</p>
                             <form action="schedule.php" method="post" style="display: flex">
 
                                 <input type="search" name="search" class="input-text " placeholder="Search and Channel a Doctor Here" list="doctors" style="width:45%;">&nbsp;&nbsp;
@@ -185,6 +195,7 @@
                     </center>
                     
                 </td>
+                
                 </tr>
                 <tr>
                     <td colspan="4">
@@ -280,7 +291,7 @@
                             
                                     <p style="font-size: 20px;font-weight:600;padding-left: 40px;" class="anime">Your Upcoming Booking</p>
                                     <center>
-                                        <div class="abc scroll" style="height: 250px;padding: 0;margin: 0;">
+                                        <div class="abc scroll" style="height: 1000px;padding: 0;margin: 0;">
                                         <table width="85%" class="sub-table scrolldown" border="0" >
                                         <thead>
                                             
@@ -326,8 +337,7 @@
                                                     
                                                     <br>
                                                     <p class="heading-main12" style="margin-left: 45px;font-size:20px;color:rgb(49, 49, 49)">Nothing to show here!</p>
-                                                    <a class="non-style-link" href="schedule.php"><button  class="login-btn btn-primary-soft btn"  style="display: flex;justify-content: center;align-items: center;margin-left:20px;">&nbsp; Channel a Doctor &nbsp;</font></button>
-                                                    </a>
+
                                                     </center>
                                                     <br><br><br><br>
                                                     </td>
