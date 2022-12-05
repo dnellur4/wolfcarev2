@@ -1,10 +1,10 @@
-# import sys
-# sys.path.append("../src/")
+import sys
+sys.path.append("../src/")
 
 import pytest
 import unittest
 
-from src.symptoms_calculator import symptomsCalculator
+from symptoms_calculator import symptomsCalculator
 
 a = symptomsCalculator()
 
