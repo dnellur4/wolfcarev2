@@ -56,7 +56,7 @@
     
 ## Flowchart
 
-<p align="center"><img src="/flowchart.png"></p>
+<p align="center"><img src="/flowchart.jpg"></p>
 
 ## Directory Structure 
 ```txt
