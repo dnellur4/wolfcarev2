@@ -5,7 +5,7 @@ print("xcvbnm,",sys.path.append("../src/"))
 import pytest
 import unittest
 
-from symptoms_calculator import symptomsCalculator
+from symptomscalculator import symptomsCalculator
 
 a = symptomsCalculator()
 
