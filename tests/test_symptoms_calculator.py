@@ -1,12 +1,12 @@
-import sys
-sys.path.append("../src/")
+# import sys
+# sys.path.append("../src/")
 
 import pytest
 import unittest
 
-import symptoms_calculator
+from src.symptoms_calculator import symptomsCalculator
 
-a = symptoms_calculator.symptomsCalculator()
+a = symptomsCalculator()
 
 class testReturnValues(unittest.TestCase):
     '''The given class tests all the symptoms of the Diseases and outputs the relative result'''
