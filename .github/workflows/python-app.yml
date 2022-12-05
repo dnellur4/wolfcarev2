@@ -38,4 +38,4 @@ jobs:
         echo "PYTHONPATH=tests:code" >> $GITHUB_ENV
     - name: Test with pytest
       run: |
-        pytest tests/test_symptoms_calculator.py
+        python -m pytest tests/
