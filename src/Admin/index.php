@@ -131,6 +131,9 @@
                             <?php
                                 $patientrow = $database->query("select  * from  patient;");
                                 $doctorrow = $database->query("select  * from  doctor;");
+                                date_default_timezone_set('Asia/Kolkata');
+        
+                                $today = date('Y-m-d');
                                 $appointmentrow = $database->query("select  * from  appointment where appodate>='$today';");
                                 $schedulerow = $database->query("select  * from  schedule where scheduledate='$today';");
 
