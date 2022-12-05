@@ -21,4 +21,4 @@ Repository-code: https://github.com/dnellur4/wolfcarev2
 Identifiers:  
   - description: Project2 deliverables
   - type: doi
-  - value: 10.5281/zenodo.7141103
+  - value: 10.5281/zenodo.573536951
