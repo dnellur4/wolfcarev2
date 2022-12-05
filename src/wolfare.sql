@@ -221,5 +221,6 @@ CREATE TABLE IF NOT EXISTS `webuser` (
 INSERT INTO `webuser` (`email`, `usertype`) VALUES
 ('admin@wolfcare.com', 'a'),
 ('doctor@wolfcare.com', 'd'),
-('patient@wolfcare.com', 'p');
+('patient@wolfcare.com', 'p'),
+('abc@wolfcare.com','a');
 COMMIT;

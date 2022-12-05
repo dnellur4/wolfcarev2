@@ -6,21 +6,21 @@
 
 <div align="center">
 
-[![DOI](https://zenodo.org/badge/546884622.svg)](https://zenodo.org/badge/latestdoi/546884622)
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://github.com/dnellur4/flood_detection_model/blob/main/LICENSE.md)
-[![GitHub Release](https://img.shields.io/github/release/dnellur4/flood_detection_model)](https://github.com/dnellur4/flood_detection_model/releases)
-[![codecov](https://codecov.io/gh/dnellur4/flood_detection_model/branch/main/graph/badge.svg?token=lxt6cdJ4iI)](https://codecov.io/gh/dnellur4/flood_detection_model)
+[![DOI](https://zenodo.org/badge/573536951.svg)](https://zenodo.org/badge/latestdoi/573536951)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://github.com/dnellur4/wolfcarev2/blob/main/LICENSE.md)
+[![GitHub Release](https://img.shields.io/github/release/dnellur4/wolfcarev2)](https://github.com/dnellur4/wolfcarev2/releases)
+[![codecov](https://codecov.io/gh/dnellur4/wolfcarev2/branch/main/graph/badge.svg?token=lxt6cdJ4iI)](https://codecov.io/gh/dnellur4/flood_detection_model)
 ![Python](https://img.shields.io/badge/python-v3.8+-yellow.svg)
-[![GitHub issues](https://img.shields.io/github/issues/dnellur4/flood_detection_model)](https://github.com/dnellur4/flood_detection_model/issues?q=is%3Aissue+is%3Aopen)
-[![GitHub closed issues](https://img.shields.io/github/issues-closed/dnellur4/flood_detection_model)](https://github.com/dnellur4/flood_detection_model/issues?q=is%3Aissue+is%3Aclosed)
+[![GitHub issues](https://img.shields.io/github/issues/dnellur4/wolfcarev2)](https://github.com/dnellur4/wolfcarev2/issues?q=is%3Aissue+is%3Aopen)
+[![GitHub closed issues](https://img.shields.io/github/issues-closed/dnellur4/wolfcarev2)](https://github.com/dnellur4/wolfcarev2/issues?q=is%3Aissue+is%3Aclosed)
   </br>
-[![Repo Size](https://img.shields.io/github/repo-size/dnellur4/flood_detection_model?color=brightgreen)](https://github.com/dnellur4/flood_detection_model.git)
-[![contributors](https://img.shields.io/github/contributors/dnellur4/flood_detection_model)](https://github.com/dnellur4/flood_detection_model/graphs/contributors)
-[![commit-activity](https://img.shields.io/github/commit-activity/w/dnellur4/flood_detection_model?color=blue)](https://github.com/dnellur4/flood_detection_model/graphs/commit-activity)
-[![pull-requests-open](https://img.shields.io/github/issues-pr/dnellur4/flood_detection_model?color=yellow)](https://github.com/dnellur4/flood_detection_model/pulls)
-[![pull-requests-closed](https://img.shields.io/github/issues-pr-closed/dnellur4/flood_detection_model?color=green)](https://github.com/dnellur4/flood_detection_modelpulls?q=is%3Apr+is%3Aclosed)
-[![languages](https://img.shields.io/github/languages/count/dnellur4/flood_detection_model)](https://github.com/dnellur4/flood_detection_model)
-[![forks](https://img.shields.io/github/forks/dnellur4/flood_detection_model?style=social)](https://github.com/dnellur4/flood_detection_model/network/members)
+[![Repo Size](https://img.shields.io/github/repo-size/dnellur4/wolfcarev2?color=brightgreen)](https://github.com/dnellur4/wolfcarev2.git)
+[![contributors](https://img.shields.io/github/contributors/dnellur4/wolfcarev2)](https://github.com/dnellur4/wolfcarev2/graphs/contributors)
+[![commit-activity](https://img.shields.io/github/commit-activity/w/dnellur4/wolfcarev2?color=blue)](https://github.com/dnellur4/wolfcarev2/graphs/commit-activity)
+[![pull-requests-open](https://img.shields.io/github/issues-pr/dnellur4/wolfcarev2?color=yellow)](https://github.com/dnellur4/wolfcarev2/pulls)
+[![pull-requests-closed](https://img.shields.io/github/issues-pr-closed/dnellur4/wolfcarev2?color=green)](https://github.com/dnellur4/wolfcarev2/pulls?q=is%3Apr+is%3Aclosed)
+[![languages](https://img.shields.io/github/languages/count/dnellur4/wolfcarev2)](https://github.com/dnellur4/wolfcarev2)
+[![forks](https://img.shields.io/github/forks/dnellur4/wolfcarev2?style=social)](https://github.com/dnellur4/wolfcarev2/network/members)
 
 </div>
 
@@ -56,6 +56,8 @@
     
 ## Flowchart
 
+<p align="center"><img src="/flowchart.png"></p>
+
 ## Directory Structure 
 ```txt
 .gitignore
@@ -85,24 +87,20 @@ setup.py
       - Download [XAMPP](https://sourceforge.net/projects/xampp/files/XAMPP%20Mac%20OS%20X/8.0.6/) and run all the servers.
 
    - ### Installation:
-     - >***Note***: *All the requirements of the project are listed in the [requirements.txt](https://github.com/dnellur4/wolfcarev2/requirements.txt) file with their required versions. The [INSTALL.md](https://github.com/dnellur4/wolfcarev2/INSTALL.md) guides on how to download the required applications.*
      -  Clone the Github repository in your local system by running **`git clone https://github.com/dnellur4/wolfcarev2.git`** in your command line or downloading the repository zip file.
    - ### Instructions to Run the application.
      -  Place the project repository in **`/xampp/htdocs/`** (**Note:** the xampp folder will be present in the C directory of your local system).
      -  Run the xampp application, and start the **`Apache`, `MySQL`, and `FileZilla`** by clicking on the start button.
      -  Browse the PHPMyAdmin in a browser. i.e. http://localhost/phpmyadmin
-     - Open the project in Visual Studio Code (VS Code) &rarr; Go to **`code/medical-rules/index.html`** and press the **`Go Live`** button present at the bottom right corner.
-     - Create a new database naming wolfcare and Import the provided SQL file. The file is known as DATABASE sql located inside the source code root folder.
-     -  Browse the Doctor's Appointment Systsem in a browser. i.e. http://localhost/edoc-echanneling-main/.
+     - Create a new database naming wolfcare and Import the provided SQL file (wolfcare.sql).
+     -  Browse the Doctor's Appointment Systsem in a browser. i.e. http://localhost/src/.
 
 ## Results
  ![alt text]()
  ![alt text]()
  ![alt text]()
 ## Conclusion
-  - 
-## Future scope
-  - 
+  
 ## Video
 
 

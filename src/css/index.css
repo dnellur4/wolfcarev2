@@ -1,0 +1,193 @@
+body{
+    background-image:  url(../img/loginpage.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    height: 100%;
+}
+
+html, body {
+    height: 100%;
+    margin: 0;
+  }
+  
+.full-height {
+    background: rgba(26, 26, 26, 0.548);
+    background-attachment: fixed;
+    max-height: 100vh;
+    height: 100vh;
+}
+table{
+    width: 100%;
+    padding-top: 5px;
+    
+}
+.heading-text{
+    color: white;
+    font-size: 42px;
+    font-weight: 700;
+    line-height: 63px;
+    margin-top: 15%;
+    text-align: center;
+    margin-bottom: 0;
+}
+
+.sub-text2{
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 17px;
+    line-height: 27px;
+    font-weight: 400;
+    text-align: center;
+    margin-top: 0;
+}
+
+
+.register-btn{
+    background-color: rgba(240, 248, 255, 0.589);
+    color: #a40313;
+}
+
+
+.wolfcare-logo{
+    color: white;
+    font-weight: bolder;
+    font-size: 20px;
+    padding-left: 20px;
+    animation: transitionIn-Y-over 0.5s;
+}
+
+.wolfcare-logo-sub{
+    color: rgba(255, 255, 255, 0.733);
+    font-size: 12px;
+
+}
+
+
+.nav-item{
+    color: rgba(255, 255, 255, 0.671);
+    text-align: center;
+    font-size: 15px;
+    font-weight: 500;
+    animation: transitionIn-Y-over 0.5s;
+}
+
+.nav-item:hover{
+    color: #f0f0f0;
+
+}
+
+.footer-hashen{
+    position: absolute;
+    bottom: 0;
+    left: 45%;
+    font-size: 13px;
+    animation: transitionIn-Y-over 0.5s;
+}
+
+.details {
+    margin: 20px 0;
+    background-color: white;
+    padding: 30px 20px;
+    height: 300px;
+    position: relative;
+    z-index: 1;
+  }
+  .details::before {
+    content: "";
+    width: 10px;
+    height: 100%;
+    background-color: #000;
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: -1;
+    transition: 0.6s all;
+  }
+  .col-md-8 {
+    margin-top: 20px;
+  }
+  .services {
+    padding: 5px 20px;
+    text-align: center;
+    height: 500px;
+  }
+  .services p {
+    margin-top: 20px;
+    font-size: 20px;
+  }
+  
+  .details:hover::before {
+    width: 100%;
+  }
+  .details:hover {
+    color: orangered;
+  }
+  .details h2,
+  .details p {
+    transition: 0.6s;
+  }
+  
+  /* Testimonials */
+  .testimonials {
+    background-color: #f0f0f0;
+    height: 400px;
+    width: 100%;
+    text-align: center;
+  }
+  .testimonials h4 {
+    margin-top: 20px;
+  }
+  .box1 {
+    width: 20%;
+    height: 350px;
+    margin-top: 25px;
+    margin-left: 4%;
+    background-color: white;
+    float: left;
+    padding: 0 10px;
+  }
+  .box2 {
+    width: 20%;
+    height: 350px;
+    margin-top: 25px;
+    margin-left: 4%;
+    background-color: white;
+    float: left;
+    padding: 0 10px;
+  }
+  .box3 {
+    width: 20%;
+    height: 350px;
+    margin-top: 25px;
+    margin-left: 4%;
+    background-color: white;
+    float: left;
+    padding: 0 10px;
+  }
+  .box4 {
+    float: left;
+    width: 20%;
+    height: 350px;
+    margin-top: 25px;
+    margin-left: 4%;
+    background-color: white;
+    padding: 0 10px;
+  }
+  .testimonials img {
+    height: 24%;
+    width: 33%;
+    border-radius: 50%;
+    margin-top: 30px;
+    margin-left: 0px;
+  }
+  
+  /* Footer */
+  .footer {
+    height: 50px;
+    background-color: #a40313;
+    text-decoration: none;
+    align-items: center;
+    position: fixed;
+    margin-bottom: 10px;
+    text-align: center;
+  }
