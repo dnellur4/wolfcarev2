@@ -19,6 +19,6 @@ Authors:
 License: MIT License.  
 Repository-code: https://github.com/dnellur4/wolfcarev2 
 Identifiers:  
-  - description: Project1 deliverables
+  - description: Project2 deliverables
   - type: doi
   - value: 10.5281/zenodo.7141103
