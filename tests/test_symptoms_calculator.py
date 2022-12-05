@@ -4,9 +4,9 @@
 import pytest
 import unittest
 
-from src import symptoms_calculator 
+from src.symptoms_calculator import symptomsCalculator
 
-a = symptoms_calculator.symptomsCalculator()
+a = symptomsCalculator()
 
 class testReturnValues(unittest.TestCase):
     '''The given class tests all the symptoms of the Diseases and outputs the relative result'''
