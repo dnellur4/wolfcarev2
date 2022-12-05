@@ -8,7 +8,7 @@ jobs:
     
     steps:
       - name: Python style check
-        uses: andymckay/pycodestyle-action@0.1.3.github/format_code.yml
+        uses: andymckay/pycodestyle-action@0.1.3
 
   laravel-pint:
     runs-on: ubuntu-latest
