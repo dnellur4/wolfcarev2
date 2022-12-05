@@ -87,7 +87,12 @@
                 </tr>
                 <tr class="menu-row" >
                     <td class="menu-btn menu-icon-appoinment">
-                        <a href="appointment.php" class="non-style-link-menu"><div><p class="menu-text">My Bookings</p></a></div>
+                        <a href="appointment.php" class="non-style-link-menu"><div><p class="menu-text">Appointments</p></a></div>
+                    </td>
+                </tr>
+                <tr class="menu-row" >
+                    <td class="menu-btn menu-icon-appoinment">
+                        <a href="medical-rules/index.html" class="non-style-link-menu"><div><p class="menu-text">Check your Symptoms</p></a></div>
                     </td>
                 </tr>
                 <tr class="menu-row" >
@@ -193,7 +198,7 @@
                                     <td colspan="4">
                                     <br><br><br><br>
                                     <center>
-                                    <img src="../img/notfound.svg" width="25%">
+                                    <img src="../img/notfound.png" width="25%">
                                     
                                     <br>
                                     <p class="heading-main12" style="margin-left: 45px;font-size:20px;color:rgb(49, 49, 49)">We  couldnt find anything related to your keywords !</p>
@@ -291,7 +296,7 @@
             $spcil_res= $database->query("select sname from specialties where id='$spe'");
             $spcil_array= $spcil_res->fetch_assoc();
             $spcil_name=$spcil_array["sname"];
-            $nic=$row['docnic'];
+            $ssn=$row['docssn'];
             $tele=$row['doctel'];
             echo '
             <div id="popup1" class="overlay">
@@ -336,12 +341,12 @@
                             </tr>
                             <tr>
                                 <td class="label-td" colspan="2">
-                                    <label for="nic" class="form-label">NIC: </label>
+                                    <label for="ssn" class="form-label">ssn: </label>
                                 </td>
                             </tr>
                             <tr>
                                 <td class="label-td" colspan="2">
-                                '.$nic.'<br><br>
+                                '.$ssn.'<br><br>
                                 </td>
                             </tr>
                             <tr>
@@ -421,7 +426,7 @@
             $spcil_res= $database->query("select sname from specialties where id='$spe'");
             $spcil_array= $spcil_res->fetch_assoc();
             $spcil_name=$spcil_array["sname"];
-            $nic=$row['docnic'];
+            $ssn=$row['docssn'];
             $tele=$row['doctel'];
 
             $error_1=$_GET["error"];
@@ -482,12 +487,12 @@
                                     
                                     <tr>
                                         <td class="label-td" colspan="2">
-                                            <label for="nic" class="form-label">NIC: </label>
+                                            <label for="ssn" class="form-label">ssn: </label>
                                         </td>
                                     </tr>
                                     <tr>
                                         <td class="label-td" colspan="2">
-                                            <input type="text" name="nic" class="input-text" placeholder="NIC Number" value="'.$nic.'" required><br>
+                                            <input type="text" name="ssn" class="input-text" placeholder="ssn Number" value="'.$ssn.'" required><br>
                                         </td>
                                     </tr>
                                     <tr>
