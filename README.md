@@ -56,6 +56,8 @@
     
 ## Flowchart
 
+<p align="center"><img src="/flowchart.png"></p>
+
 ## Directory Structure 
 ```txt
 .gitignore
@@ -85,24 +87,20 @@ setup.py
       - Download [XAMPP](https://sourceforge.net/projects/xampp/files/XAMPP%20Mac%20OS%20X/8.0.6/) and run all the servers.
 
    - ### Installation:
-     - >***Note***: *All the requirements of the project are listed in the [requirements.txt](https://github.com/dnellur4/wolfcarev2/requirements.txt) file with their required versions. The [INSTALL.md](https://github.com/dnellur4/wolfcarev2/INSTALL.md) guides on how to download the required applications.*
      -  Clone the Github repository in your local system by running **`git clone https://github.com/dnellur4/wolfcarev2.git`** in your command line or downloading the repository zip file.
    - ### Instructions to Run the application.
      -  Place the project repository in **`/xampp/htdocs/`** (**Note:** the xampp folder will be present in the C directory of your local system).
      -  Run the xampp application, and start the **`Apache`, `MySQL`, and `FileZilla`** by clicking on the start button.
      -  Browse the PHPMyAdmin in a browser. i.e. http://localhost/phpmyadmin
-     - Open the project in Visual Studio Code (VS Code) &rarr; Go to **`code/medical-rules/index.html`** and press the **`Go Live`** button present at the bottom right corner.
-     - Create a new database naming wolfcare and Import the provided SQL file. The file is known as DATABASE sql located inside the source code root folder.
-     -  Browse the Doctor's Appointment Systsem in a browser. i.e. http://localhost/edoc-echanneling-main/.
+     - Create a new database naming wolfcare and Import the provided SQL file (wolfcare.sql).
+     -  Browse the Doctor's Appointment Systsem in a browser. i.e. http://localhost/src/.
 
 ## Results
  ![alt text]()
  ![alt text]()
  ![alt text]()
 ## Conclusion
-  - 
-## Future scope
-  - 
+  
 ## Video
 
 
