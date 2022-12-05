@@ -48,7 +48,7 @@ if($_POST){
     $lname=$_SESSION['personal']['lname'];
     $name=$fname." ".$lname;
     $address=$_SESSION['personal']['address'];
-    $nic=$_SESSION['personal']['nic'];
+    $ssn=$_SESSION['personal']['ssn'];
     $dob=$_SESSION['personal']['dob'];
     $email=$_POST['newemail'];
     $tele=$_POST['tele'];
@@ -61,10 +61,10 @@ if($_POST){
             $error='<label for="promter" class="form-label" style="color:rgb(255, 62, 62);text-align:center;">Already have an account for this Email address.</label>';
         }else{
             
-            $database->query("insert into patient(pemail,pname,ppassword, paddress, pnic,pdob,ptel) values('$email','$name','$newpassword','$address','$nic','$dob','$tele');");
+            $database->query("insert into patient(pemail,pname,ppassword, paddress, pssn,pdob,ptel) values('$email','$name','$newpassword','$address','$ssn','$dob','$tele');");
             $database->query("insert into webuser values('$email','p')");
 
-            //print_r("insert into patient values($pid,'$email','$fname','$lname','$newpassword','$address','$nic','$dob','$tele');");
+            //print_r("insert into patient values($pid,'$email','$fname','$lname','$newpassword','$address','$ssn','$dob','$tele');");
             $_SESSION["user"]=$email;
             $_SESSION["usertype"]="p";
             $_SESSION["username"]=$fname;
