@@ -79,3 +79,4 @@ class symptomsCalculator:
             return True
         else:
             return False
+        
