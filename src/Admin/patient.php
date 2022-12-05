@@ -166,7 +166,7 @@
                                 <th class="table-headin">
                                     
                                 
-                                    NIC
+                                    ssn
                                     
                                 </th>
                                 <th class="table-headin">
@@ -201,7 +201,7 @@
                                     <td colspan="4">
                                     <br><br><br><br>
                                     <center>
-                                    <img src="../img/notfound.svg" width="25%">
+                                    <img src="../img/notfound.png" width="25%">
                                     
                                     <br>
                                     <p class="heading-main12" style="margin-left: 45px;font-size:20px;color:rgb(49, 49, 49)">We  couldnt find anything related to your keywords !</p>
@@ -219,7 +219,7 @@
                                     $pid=$row["pid"];
                                     $name=$row["pname"];
                                     $email=$row["pemail"];
-                                    $nic=$row["pnic"];
+                                    $ssn=$row["pssn"];
                                     $dob=$row["pdob"];
                                     $tel=$row["ptel"];
                                     
@@ -228,7 +228,7 @@
                                         substr($name,0,35)
                                         .'</td>
                                         <td>
-                                        '.substr($nic,0,12).'
+                                        '.substr($ssn,0,12).'
                                         </td>
                                         <td>
                                             '.substr($tel,0,10).'
@@ -276,7 +276,7 @@
             $row=$result->fetch_assoc();
             $name=$row["pname"];
             $email=$row["pemail"];
-            $nic=$row["pnic"];
+            $ssn=$row["pssn"];
             $dob=$row["pdob"];
             $tele=$row["ptel"];
             $address=$row["paddress"];
@@ -333,12 +333,12 @@
                             </tr>
                             <tr>
                                 <td class="label-td" colspan="2">
-                                    <label for="nic" class="form-label">NIC: </label>
+                                    <label for="ssn" class="form-label">ssn: </label>
                                 </td>
                             </tr>
                             <tr>
                                 <td class="label-td" colspan="2">
-                                '.$nic.'<br><br>
+                                '.$ssn.'<br><br>
                                 </td>
                             </tr>
                             <tr>
