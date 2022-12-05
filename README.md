@@ -18,7 +18,7 @@
 [![contributors](https://img.shields.io/github/contributors/dnellur4/wolfcarev2)](https://github.com/dnellur4/wolfcarev2/graphs/contributors)
 [![commit-activity](https://img.shields.io/github/commit-activity/w/dnellur4/wolfcarev2?color=blue)](https://github.com/dnellur4/wolfcarev2/graphs/commit-activity)
 [![pull-requests-open](https://img.shields.io/github/issues-pr/dnellur4/wolfcarev2?color=yellow)](https://github.com/dnellur4/wolfcarev2/pulls)
-[![pull-requests-closed](https://img.shields.io/github/issues-pr-closed/dnellur4/wolfcarev2?color=green)](https://github.com/dnellur4/wolfcarev2pulls?q=is%3Apr+is%3Aclosed)
+[![pull-requests-closed](https://img.shields.io/github/issues-pr-closed/dnellur4/wolfcarev2?color=green)](https://github.com/dnellur4/wolfcarev2/pulls?q=is%3Apr+is%3Aclosed)
 [![languages](https://img.shields.io/github/languages/count/dnellur4/wolfcarev2)](https://github.com/dnellur4/wolfcarev2)
 [![forks](https://img.shields.io/github/forks/dnellur4/wolfcarev2?style=social)](https://github.com/dnellur4/wolfcarev2/network/members)
 
