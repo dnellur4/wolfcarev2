@@ -160,7 +160,7 @@ flowchart.jpg
 
 <table border="2" bordercolorlight="#b9dcff" bordercolordark="#006fdd">
 
-    <img src="/docs/database.png">
+    <img src="docs/database.png">
   
   </table>
 <br>
