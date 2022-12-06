@@ -18,7 +18,7 @@ jobs:
         run: yarn
 
       - name: Run fixer
-        run: yarn prettier --write src/css/*.{css}
+        run: yarn prettier --write src/*.{css,js}
 
       - uses: stefanzweifel/git-auto-commit-action@v4
         with:
