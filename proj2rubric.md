@@ -5,12 +5,12 @@ Total Score:
 |-----| --------- | --------- |
 |Video1|    |    |
 |Bonus: Xfold improvement| 3 | [Scalability](https://github.com/dnellur4/wolfcarev2/blob/main/docs/Application%20Scalability%20Design1.pdf) |
-|Docs: what: point descriptions of each class/function (in isolation)| |    |
+|Docs: what: point descriptions of each class/function (in isolation)| 3 | [GitHub]  (https://dnellur4.github.io/wolfcarev2/symptoms_calculator.html) |
 |Use of style checkers| 3 | Code Linting Integrated [GitHub Action](https://github.com/dnellur4/wolfcarev2/blob/main/.github/workflows/python-app.yml) |
 |Use of code formatters.| 3 | Code Linting Integrated [GitHub Action](https://github.com/dnellur4/wolfcarev2/blob/main/.github/workflows/python-app.yml) |
 |Use of syntax checkers.| 3 | Code Linting Integrated [GitHub Action](https://github.com/dnellur4/wolfcarev2/blob/main/.github/workflows/python-app.yml)  |
 |Use of code coverage| 3 | Badge in [README.md](https://github.com/dnellur4/wolfcarev2/blob/main/README.md)  |
-|Other automated analysis tools|  |   |
+|Other automated analysis tools| 3 |   |
 |Workload is spread over the whole team (one team member is often Xtimes more productive than the others, but nevertheless, here is a track record that everyone is contributing a lot | 3 | From [GH Insights](https://github.com/dnellur4/wolfcarev2/graphs/contributors), team members have equally participated in scaling the original project|
 |Number of commits| 3 | From [Github commits](https://github.com/dnellur4/wolfcarev2/graphs/commit-activity) |
 |Number of commits: by different people| 3 | From [GH Insights](https://github.com/dnellur4/wolfcarev2/pulse)  |
