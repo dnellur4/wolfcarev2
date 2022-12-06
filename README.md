@@ -36,6 +36,8 @@
   ::
   <a href="#gettingstarted">Getting started</a> </br>
   ::
+  <a href="#demo-video">Demo Video</a>
+  ::
   <a href="#website-design">Website Design</a>
   ::
   <a href="#conclusion">Conclusion</a>
@@ -100,15 +102,22 @@ flowchart.jpg
      -  Create a new database naming wolfcare and Import the provided SQL file (wolfcare.sql).
      -  Browse the Application in a browser. i.e. http://localhost/wolfcarev2/src/.
 
+## Demo Video
+
+
+https://user-images.githubusercontent.com/28722298/205794355-d99755c0-9d5d-4195-85c6-3ad0dc89b679.mp4
+
+
+
 ## Website Design
 
 <table border="2" bordercolorlight="#b9dcff" bordercolordark="#006fdd">
 
   <thead>  
     <h3 id ="design"> Main Page</h3>
-    <img src="/images/main.png">
+    <img src="/docs/main.png">
   </thead>
-  <h3 id ="design"> Patient's</h3>
+  <h3 id ="design"> Patient's Page</h3>
   <tr style="background: #010203;"> 
     <td colspan = "2">
         <img src="/docs/patient1.jpeg">    
@@ -122,16 +131,16 @@ flowchart.jpg
         <img src="/docs/patient3.jpeg">  
      </td>
      <td colspan = "2"> 
-        <img src="/docs/patient4.jpeg">
+        <img src="/docs/patient4.png">
     </td>
   </tr>
   </table>
 <br>
-<h3 id ="design"> Doctor's</h3>
-  <table border="2" bordercolorlight="#b9dcff" bordercolordark="#006fdd">
+<table border="2" bordercolorlight="#b9dcff" bordercolordark="#006fdd">
+  <h3 id ="design"> Doctor's Page</h3>
   <tr style="background: #010203;"> 
     <td colspan = "2">
-        <img src="/docs/doctor1.jpeg" >    
+        <img src="/docs/doctor1.jpeg" width="100%">    
      </td>
      <td colspan = "2">
         <img src="/docs/doctor2.jpeg">    
@@ -139,19 +148,18 @@ flowchart.jpg
   </tr>
    <tr style="background: #010203;"> 
     <td colspan = "2">
-       <img src="/docs/doctor3.jpeg">   
+        <img src="/docs/doctor3.jpeg">  
      </td>
      <td colspan = "2"> 
-        <img src="/docs/doctor4.jpeg"> 
+        <img src="/docs/doctor4.png">
     </td>
   </tr>
   </table>
-  <table>
  <h3 id ="design"> Admin page</h3>
   <tr style="background: #010203;"> 
       <td colspan = "2">
       <p style="color: #FF7A59"> Admin Page </p>  
-        <img src="/docs/admin1.png">    
+        <img src="/docs/admin1.jpeg">    
      </td>
    </table>
 <br>
@@ -160,7 +168,12 @@ flowchart.jpg
 
 <table border="2" bordercolorlight="#b9dcff" bordercolordark="#006fdd">
 
-    <img src="/docs/database.png">
+<tr style="background: #010203;"> 
+    <td colspan = "1">
+     <img src="/docs/database.png">
+    </td>
+  </tr>
+   
   
   </table>
 <br>
