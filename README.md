@@ -40,7 +40,7 @@
   ::
   <a href="#website-design">Website Design</a>
   ::
-  <a href="#conclusion">Conclusion</a>
+  <a href="#scalability">Conclusion</a>
   ::
   <a href="#video">Video</a>
   ::
@@ -178,8 +178,8 @@ https://user-images.githubusercontent.com/28722298/205794355-d99755c0-9d5d-4195-
   </table>
 <br>
 
-## Conclusion
-<p>Wolcare V2 is end-to-end doctor's patient appointment application which has features like booking </p>
+## Scalability
+<p>We performed the load testing on the application hosted locally and observed that it can handle approximately 85 user requests per second. In order to handle more requests (100x or 1000x), we designed an architecture for deploying the application on cloud which would autoscale when the number of requests cross a specific threshold. This enables the application to handle larger loads. The link for the <a href = "/docs/Application Scalability Design1.pdf">Application Scalability Design</a></p>
 
 ## Video
 
