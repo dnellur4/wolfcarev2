@@ -15,7 +15,8 @@ jobs:
           ref: ${{ github.head_ref }}
 
       - name: Install node packages
-        run: yarn
+        run: cd ../ 
+              yarn
 
       - name: Run fixer
         run: yarn prettier --write src/Patient/medical-rules/*.{css,js}
