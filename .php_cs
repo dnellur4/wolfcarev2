@@ -124,10 +124,9 @@ $rules = [
     'whitespace_after_comma_in_array' => true,
 ];
 
-$project_path = getcwd();
 $finder = Finder::create()
     ->in([
-        $project_path
+        ./src/
     ])
     ->name('*.php')
     ->notName('*.blade.php')
