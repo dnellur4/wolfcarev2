@@ -5,7 +5,7 @@ Total Score:
 |-----| --------- | --------- |
 |Video1|    |    |
 |Bonus: Xfold improvement| 3 | [Scalability](https://github.com/dnellur4/wolfcarev2/blob/main/docs/Application%20Scalability%20Design1.pdf) |
-|Docs: what: point descriptions of each class/function (in isolation)| 3 | [GitHub]  (https://dnellur4.github.io/wolfcarev2/symptoms_calculator.html) |
+|Docs: what: point descriptions of each class/function (in isolation)| 3 | Pdoc Generated [GitHub Actions]  (https://dnellur4.github.io/wolfcarev2/symptoms_calculator.html) |
 |Use of style checkers| 3 | Code Linting Integrated [GitHub Action](https://github.com/dnellur4/wolfcarev2/blob/main/.github/workflows/python-app.yml) |
 |Use of code formatters.| 3 | Code Linting Integrated [GitHub Action](https://github.com/dnellur4/wolfcarev2/blob/main/.github/workflows/python-app.yml) |
 |Use of syntax checkers.| 3 | Code Linting Integrated [GitHub Action](https://github.com/dnellur4/wolfcarev2/blob/main/.github/workflows/python-app.yml)  |
