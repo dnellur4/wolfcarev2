@@ -167,6 +167,7 @@ https://user-images.githubusercontent.com/28722298/205794355-d99755c0-9d5d-4195-
 <h2 id = "db"> Database Design </h2>
 
 <table border="2" bordercolorlight="#b9dcff" bordercolordark="#006fdd">
+
 <tr style="background: #010203;"> 
     <td colspan = "1">
      <img src="/docs/database.png">
