@@ -15,7 +15,7 @@ jobs:
           ref: ${{ github.head_ref }}
 
       - name: Install composer packages
-        run: composer install
+        run: composer install --ignore-platform-reqs
 
       - name: Run PHP-CS-Fixer Lint
         run: ./vendor/bin/php-cs-fixer fix
