@@ -14,7 +14,7 @@ Authors:
   - Kanamarlapudi, Venkata Gnana Vardhani
   - Vengali, Sai Kumar Goud
   - Immidisetti, Ratan
-  - Chirumamilla, Raviteja.  
+  - Chirumamilla, Raviteja  
 
 License: MIT License.  
 Repository-code: https://github.com/dnellur4/wolfcarev2 
