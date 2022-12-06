@@ -106,7 +106,7 @@ flowchart.jpg
 
   <thead>  
     <h3 id ="design"> Main Page</h3>
-    <img src="/images/main.png">
+    <img src="/docs/main.png">
   </thead>
   <h3 id ="design"> Patient's</h3>
   <tr style="background: #010203;"> 
