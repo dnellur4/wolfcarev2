@@ -151,7 +151,7 @@ flowchart.jpg
   <tr style="background: #010203;"> 
       <td colspan = "2">
       <p style="color: #FF7A59"> Admin Page </p>  
-        <img src="/docs/admin1.png">    
+        <img src="/docs/admin1.jpeg">    
      </td>
    </table>
 <br>
