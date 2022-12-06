@@ -122,7 +122,7 @@ flowchart.jpg
         <img src="/docs/patient3.jpeg">  
      </td>
      <td colspan = "2"> 
-        <img src="/docs/patient4.jpeg">
+        <img src="/docs/patient4.png">
     </td>
   </tr>
   </table>
@@ -142,7 +142,7 @@ flowchart.jpg
        <img src="/docs/doctor3.jpeg">   
      </td>
      <td colspan = "2"> 
-        <img src="/docs/doctor4.jpeg"> 
+        <img src="/docs/doctor4.png"> 
     </td>
   </tr>
   </table>
