@@ -15,10 +15,10 @@ jobs:
           ref: ${{ github.head_ref }}
 
       - name: Install node packages
-        run: yarn
+        run:  yarn
 
       - name: Run fixer
-        run: yarn prettier --write src/Patient/medical-rules/*.{css,js}
+        run:  yarn prettier --write src/Patient/medical-rules/*.{css,js}
 
       - uses: stefanzweifel/git-auto-commit-action@v4
         with:
