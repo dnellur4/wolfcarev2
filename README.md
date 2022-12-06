@@ -111,72 +111,68 @@ flowchart.jpg
   <h3 id ="design"> Patient's</h3>
   <tr style="background: #010203;"> 
     <td colspan = "2">
-        <img src="/docs/patient1.png">    
+        <img src="/docs/patient1.jpeg">    
      </td>
      <td colspan = "2">
-        <img src="/docs/patient3.png">    
+        <img src="/docs/patient2.jpeg">    
      </td>
   </tr>
    <tr style="background: #010203;"> 
     <td colspan = "2">
-        <img src="/docs/patient3.png">  
+        <img src="/docs/patient3.jpeg">  
      </td>
      <td colspan = "2"> 
-        <img src="/docs/patient4.png">
+        <img src="/docs/patient4.jpeg">
     </td>
   </tr>
   </table>
 <br>
-<h3 id ="design"> Doctor's's</h3>
+<h3 id ="design"> Doctor's</h3>
   <table border="2" bordercolorlight="#b9dcff" bordercolordark="#006fdd">
   <tr style="background: #010203;"> 
     <td colspan = "2">
-        <img src="/docs/doctor1.png">    
+        <img src="/docs/doctor1.jpeg" >    
      </td>
      <td colspan = "2">
-        <img src="/docs/doctor2.png">    
+        <img src="/docs/doctor2.jpeg">    
      </td>
   </tr>
    <tr style="background: #010203;"> 
     <td colspan = "2">
-       <img src="/docs/doctor3.png">   
+       <img src="/docs/doctor3.jpeg">   
      </td>
      <td colspan = "2"> 
-        <img src="/docs/doctor4.png"> 
+        <img src="/docs/doctor4.jpeg"> 
     </td>
   </tr>
   </table>
+  <table>
+ <h3 id ="design"> Admin page</h3>
+  <tr style="background: #010203;"> 
+      <td colspan = "2">
+      <p style="color: #FF7A59"> Admin Page </p>  
+        <img src="/docs/admin1.png">    
+     </td>
+   </table>
 <br>
 
-<h2 id = "db"> Database Design 💾</h2>
+<h2 id = "db"> Database Design </h2>
 
 <table border="2" bordercolorlight="#b9dcff" bordercolordark="#006fdd">
 
-  <thead>
-    <p> Main Database </p>
-    <img src="/images/db1.png">
-  </thead>
+    <img src="/docs/database.png">
   
-  <tr style="background: #010203;"> 
-      <td colspan = "2">
-      <p style="color: #FF7A59"> 1. admin's Database </p>  
-        <img src="/docs/db2.png">    
-     </td>
-    <td colspan = "2">
-      <p style="color: #FF7A59"> 2. Doctors' Database </p>  
-        <img src="/docs/db2.png">    
-     </td>
-     <td colspan = "2">
-      <p style="color: #FF7A59"> 3. Users' Database  </p>  
-        <img src="/docs/db3.png">    
-     </td>
-  </tr>
   </table>
 <br>
 
 ## Conclusion
-<p>Wolcare V2 is end-to-end doctor's patient appointment application which has features like booking  ,</p>
+<p>Wolcare V2 is end-to-end doctor's patient appointment application which has features like booking </p>
+
 ## Video
+
+
+https://user-images.githubusercontent.com/28722298/205790714-bbd64fad-7b95-4b43-bb02-680164967618.mp4
+
 
 
 ## Group Members ##
