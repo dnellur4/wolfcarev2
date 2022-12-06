@@ -3,23 +3,23 @@ Total Score:
 
 |Notes| Score | Evidence |
 |-----| --------- | --------- |
-|Video1|    |    |
+|Video1|  3  | [V2](https://github.com/dnellur4/wolfcarev2#video) [LiveDemo](https://github.com/dnellur4/wolfcarev2#demo-video)  |
 |Bonus: Xfold improvement| 3 | [Scalability](https://github.com/dnellur4/wolfcarev2/blob/main/docs/Application%20Scalability%20Design1.pdf) |
 |Docs: what: point descriptions of each class/function (in isolation)| 3 | Pdoc Generated [GitHub](https://dnellur4.github.io/wolfcarev2/symptoms_calculator.html) |
 |Use of style checkers| 3 | Code Linting Integrated [GitHub Action](https://github.com/dnellur4/wolfcarev2/blob/main/.github/workflows/python-app.yml) |
 |Use of code formatters.| 3 | Code Linting Integrated [GitHub Action](https://github.com/dnellur4/wolfcarev2/blob/main/.github/workflows/python-app.yml) |
 |Use of syntax checkers.| 3 | Code Linting Integrated [GitHub Action](https://github.com/dnellur4/wolfcarev2/blob/main/.github/workflows/python-app.yml)  |
 |Use of code coverage| 3 | Badge in [README.md](https://github.com/dnellur4/wolfcarev2/blob/main/README.md)  |
-|Other automated analysis tools|  |   |
+|Other automated analysis tools| 3 | [Evidence](https://github.com/dnellur4/wolfcarev2/blob/main/.github/workflows/)  |
 |Workload is spread over the whole team (one team member is often Xtimes more productive than the others, but nevertheless, here is a track record that everyone is contributing a lot | 3 | From [GH Insights](https://github.com/dnellur4/wolfcarev2/graphs/contributors), team members have equally participated in scaling the original project|
 |Number of commits| 3 | From [Github commits](https://github.com/dnellur4/wolfcarev2/graphs/commit-activity) |
 |Number of commits: by different people| 3 | From [GH Insights](https://github.com/dnellur4/wolfcarev2/pulse)  |
 |Issues reports: there are many| 3 | Overall [10+ issues listed](https://github.com/dnellur4/wolfcarev2/issues)   |
 |Issues are being closed| 3 | At the time of submission, all issues have sparked discussions with teammates and have been closed. |
 |DOI badge: exists | 3 | From GH within [README.md](https://github.com/dnellur4/wolfcarev2/blob/main/README.md) |
-|Docs: doco generated, format not ugly |  |  |
-|Docs: how: for common use cases X,Y,Z mini-tutorials showing worked examples on how to do X,Y,Z |  |  |
-|Docs: why: docs tell a story, motivate the whole thing, deliver a punchline that makes you want to rush out and use the thing |  |  |
+|Docs: doco generated, format not ugly | 3 | [Evidence]([https://github.com/dnellur4/wolfcarev2/blob/main/.github/workflows/](https://github.com/dnellur4/wolfcarev2/blob/main/.github/workflows/style-prettier.yml)) |
+|Docs: how: for common use cases X,Y,Z mini-tutorials showing worked examples on how to do X,Y,Z | 3 | [LiveDemo](https://github.com/dnellur4/wolfcarev2#demo-video) |
+|Docs: why: docs tell a story, motivate the whole thing, deliver a punchline that makes you want to rush out and use the thing | 3 | "Generate documents with Python and get the job done faster than ever before! With Python document generator, you can create professional-looking documents in no time, so you can focus on the important things. Get ready to revolutionize your workflow - it's time to take your productivity to the next level!" |
 |Docs: short video, animated, hosted on your repo. That convinces people why they want to work on your code.|  3  |  [Readme](https://github.com/dnellur4/wolfcarev2#video)  |
 |Use of version control tools| 3 | Git utilized |
 |Test cases exist| 3 |  [Evidence](https://github.com/dnellur4/wolfcarev2/blob/main/tests/test_symptoms_calculator.py)  |
