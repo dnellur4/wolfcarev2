@@ -36,11 +36,9 @@
   ::
   <a href="#gettingstarted">Getting started</a> </br>
   ::
-  <a href="#results">Results</a>
+  <a href="#website-design">Website Design</a>
   ::
   <a href="#conclusion">Conclusion</a>
-  ::
-  <a href="#future-scope">Future Scope</a>
   ::
   <a href="#video">Video</a>
   ::
@@ -49,9 +47,9 @@
 </p>
 
 ## Overview
-<p>WolfCare is an online application that manages the health portfolio of the patient and provides doctor’s assistance through an online portal. A virtual doctor appointment booking system overrides the problems of booking an appointment manually. It is convenient, helps in better resource management and aids in syncing of calender schedules.</p>
-
-<p> The system admin will populate the list of the doctors with their specialties and along with the doctor's details and system credentials. The patients will browse the doctor's appointment system website to find a doctor that has the specialty of their needs. This provides a platform for the users to create an account, search for doctors given speicality, view the doctor's sessions and book appointments. This project can also help doctors to manage the schedules of their appointments with their patients. After that, the doctors can view all their sessions and the appointments request of the patients for their availability.</p>
+<p>WolfCare is an online tool that helps patients maintain their health information and connects them to doctors through a secure online portal. The drawbacks of manually scheduling an appointment with a doctor are eliminated by a virtual system. It is practical, improves resource management, and helps synchronize calendar schedules.</p>
+<p>
+The list of doctors' specializations, contact information, and system credentials will all be filled up by the system administrator. In order to locate a doctor who specializes in their needs, people will search the doctor's appointment system website. Users may establish an account, search for doctors based on their specialties, check the doctors' sessions, and make appointments using this website. The management of doctors' patient appointment schedules can also be done in manage sessions. The doctors may then view all of their sessions as well as the patients' appointments based on their availability.</p>
 
     
 ## Flowchart
@@ -99,16 +97,82 @@ flowchart.jpg
      -  Place the project repository in **`/xampp/htdocs/`** (**Note:** the xampp folder will be present in the C directory of your local system).
      -  Run the xampp application, and start the **`Apache`, `MySQL`, and `FileZilla`** by clicking on the start button.
      -  Browse the PHPMyAdmin in a browser. i.e. http://localhost/phpmyadmin
-     - Create a new database naming wolfcare and Import the provided SQL file (wolfcare.sql).
-     -  Browse the Doctor's Appointment Systsem in a browser. i.e. http://localhost/src/.
+     -  Create a new database naming wolfcare and Import the provided SQL file (wolfcare.sql).
+     -  Browse the Application in a browser. i.e. http://localhost/wolfcarev2/src/.
 
-## Results
- ![alt text]()
- ![alt text]()
- ![alt text]()
-## Conclusion
+## Website Design
+
+<table border="2" bordercolorlight="#b9dcff" bordercolordark="#006fdd">
+
+  <thead>  
+    <h3 id ="design"> Main Page</h3>
+    <img src="/images/main.png">
+  </thead>
+  <h3 id ="design"> Patient's</h3>
+  <tr style="background: #010203;"> 
+    <td colspan = "2">
+        <img src="/docs/patient1.jpeg">    
+     </td>
+     <td colspan = "2">
+        <img src="/docs/patient2.jpeg">    
+     </td>
+  </tr>
+   <tr style="background: #010203;"> 
+    <td colspan = "2">
+        <img src="/docs/patient3.jpeg">  
+     </td>
+     <td colspan = "2"> 
+        <img src="/docs/patient4.jpeg">
+    </td>
+  </tr>
+  </table>
+<br>
+<h3 id ="design"> Doctor's</h3>
+  <table border="2" bordercolorlight="#b9dcff" bordercolordark="#006fdd">
+  <tr style="background: #010203;"> 
+    <td colspan = "2">
+        <img src="/docs/doctor1.jpeg" >    
+     </td>
+     <td colspan = "2">
+        <img src="/docs/doctor2.jpeg">    
+     </td>
+  </tr>
+   <tr style="background: #010203;"> 
+    <td colspan = "2">
+       <img src="/docs/doctor3.jpeg">   
+     </td>
+     <td colspan = "2"> 
+        <img src="/docs/doctor4.jpeg"> 
+    </td>
+  </tr>
+  </table>
+  <table>
+ <h3 id ="design"> Admin page</h3>
+  <tr style="background: #010203;"> 
+      <td colspan = "2">
+      <p style="color: #FF7A59"> Admin Page </p>  
+        <img src="/docs/admin1.png">    
+     </td>
+   </table>
+<br>
+
+<h2 id = "db"> Database Design </h2>
+
+<table border="2" bordercolorlight="#b9dcff" bordercolordark="#006fdd">
+
+    <img src="/docs/database.png">
   
+  </table>
+<br>
+
+## Conclusion
+<p>Wolcare V2 is end-to-end doctor's patient appointment application which has features like booking </p>
+
 ## Video
+
+
+https://user-images.githubusercontent.com/28722298/205790714-bbd64fad-7b95-4b43-bb02-680164967618.mp4
+
 
 
 ## Group Members ##
