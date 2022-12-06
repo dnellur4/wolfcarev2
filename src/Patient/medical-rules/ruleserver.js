@@ -1,5 +1,4 @@
-
-var express = require("express");
+var express = require('express');
 var app = express();
-app.use(express.static("./")).listen(3000);
+app.use(express.static('./')).listen(3000);
 module.exports = app;
