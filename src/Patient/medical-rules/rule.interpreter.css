@@ -2,34 +2,34 @@
  * @author Jugu Dannie Sundar <jugu [dot] 87 [at] gmail [dot] com>
  */
 ul {
-	font-size:30px;
+    font-size: 30px;
 }
 .button {
-	background-color: #4CAF50; /* Green */
-	border: none;
-	color: white;
-	padding: 16px 32px;
-	text-align: center;
-	text-decoration: none;
-	display: inline-block;
-	font-size: 16px;
-	margin: 4px 2px;
-	cursor: pointer;
+    background-color: #4caf50; /* Green */
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
 }
 
 textarea {
-	width:100%;
-	height:60%;
-	font-size:20px;
-	align:center;
+    width: 100%;
+    height: 60%;
+    font-size: 20px;
+    align: center;
 }
 textarea#variables {
-	align:center;
+    align: center;
 }
-textarea#rules {                
-	align:center;
+textarea#rules {
+    align: center;
 }
 
 p#rulePara {
-	text-align: center
+    text-align: center;
 }

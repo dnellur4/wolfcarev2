@@ -38,7 +38,7 @@ if($_POST){
         'fname'=>$_POST['fname'],
         'lname'=>$_POST['lname'],
         'address'=>$_POST['address'],
-        'nic'=>1234,
+        'ssn'=>1234,
         'dob'=>$_POST['dob']
     );
 
@@ -89,12 +89,12 @@ if($_POST){
             </tr>
             <!--<tr>
                 <td class="label-td" colspan="2">
-                    <label for="nic" class="form-label">Mobile Number: </label>
+                    <label for="ssn" class="form-label">Mobile Number: </label>
                 </td>
             </tr>
             <tr>
                 <td class="label-td" colspan="2">
-                    <input type="text" name="nic" class="input-text" placeholder="Mobile Number" required>
+                    <input type="text" name="ssn" class="input-text" placeholder="Mobile Number" required>
                 </td>
             </tr>-->
             <tr>
